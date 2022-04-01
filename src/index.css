@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.svg-container{
+  border-color: rgb(159, 159, 159);
+  border-style: solid;
+}
+
+.x-grid-lines{
+  stroke-width: 2px;
+  stroke: gainsboro;
+  opacity: 0.5;
+}
+
+.y-grid-lines{
+  stroke-width: 2px;
+  stroke: gainsboro;
+  opacity: 0.5;
+}
+
+.axis-label{
+  font-size: 20px;
+  font-weight: bold;
+}
