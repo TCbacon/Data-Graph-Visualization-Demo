@@ -1,7 +1,8 @@
 import './styles.css';
 
-export const Marks = ({xScale, yScale, xVal, yVal, data}) => {
+export const Marks = ({xScale, yScale, xVal, yVal, data,toolTipFormat}) => {
     return (data.map((d) => {
+
         return (
             <rect
             className='rectangle'
@@ -11,7 +12,7 @@ export const Marks = ({xScale, yScale, xVal, yVal, data}) => {
                 width={xScale(xVal(d))}
                 height={yScale.bandwidth()}
             >
-                <title>{xVal(d)}</title>
+                <title>{toolTipFormat(xVal(d))}</title>
             </rect>)
     })
     )

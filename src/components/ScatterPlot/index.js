@@ -7,7 +7,7 @@ import './styles.css';
 
 export const ScatterPlot = () => {
 
-    const title = "Scatter Plot";
+    const title = "Iris Plant Width and Height Comparison";
     const width = 1030;
     const height = 500;
     const margin = { top: 20, right: 40, bottom: 65, left: 90 };

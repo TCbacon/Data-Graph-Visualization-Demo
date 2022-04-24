@@ -1,0 +1,18 @@
+.marks .land {
+    fill: #ececec;
+  }
+  .marks .sphere {
+    fill: #fbfbfb;
+  }
+  .marks .interiors {
+    fill: none;
+    stroke: #d9dfe0;
+  }
+  .marks .graticules, .tick line {
+    fill: none;
+    stroke: #ececec;
+  }
+  circle {
+    fill: #137B80;
+    opacity: 0.3;
+  }
